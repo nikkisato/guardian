@@ -1,0 +1,113 @@
+body {
+  background: #333;
+  color: white;
+  max-width: 100%;
+  overflow-x: hidden;
+  min-width: 300px;
+}
+
+.navbar {
+  border-bottom: #008ed6 3px solid;
+  opacity: 0.7;
+}
+
+#home {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 50% 50%;
+  min-width: 300px;
+}
+
+#home-section {
+  background-image: url("img/Nikki-2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 50% 50%;
+  min-height: 900px;
+  min-width: 300px;
+}
+
+#home-section .dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 900px;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.positioning {
+  margin-top: 170px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 568px) {
+  .title {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 991px) {
+  #home-section {
+    min-height: 600px;
+  }
+}
+@media (min-width: 991px) {
+  #home-section {
+    min-height: 600px;
+  }
+}
+
+.container-home {
+  min-height: 800px;
+}
+#projects-section {
+  margin-top: 400px;
+  text-align: Center;
+}
+
+#home-section {
+  border-bottom: #008ed6 7px solid;
+  opacity: 0.7;
+  height: 650px;
+}
+
+#about {
+  border-top: #008ed6 3px solid;
+  opacity: 0.7;
+  margin-top: 50px;
+  text-align: Center;
+}
+
+#photo-section {
+  margin-top: 50px;
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  border: solid 1px black;
+}
+
+.parent img {
+  width: 250px;
+  height: 250px;
+}
+
+i {
+  color: white;
+}
+
+nav a {
+font-size: 20px;
+}
+
+nav {}
